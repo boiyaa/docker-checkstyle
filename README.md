@@ -1,2 +1,2 @@
-# docker-checkstyle
-Checkstyle docker image
+- `docker run -it --rm -v $(pwd):/workdir boiyaa/checkstyle -c your-checks.xml .` to run checkstyle on current directory
+- `docker run -it --rm -v $(pwd):/workdir boiyaa/checkstyle /bin/sh` to run shell
