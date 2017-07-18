@@ -1,6 +1,6 @@
 FROM openjdk:jre-alpine
 
-ENV CHECKSTYLE_VERSION 6.19
+ENV CHECKSTYLE_VERSION 7.8.2
 
 RUN apk update && \
     apk --no-cache add openssl && \
